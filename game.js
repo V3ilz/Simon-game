@@ -26,7 +26,7 @@ $(".btn").click(function() {
 });
 
 
-$(document).keypress(function() {
+$(document).keydown(function() {
     if (!started) {
 
         $("#level-title").text("Level " + level);
